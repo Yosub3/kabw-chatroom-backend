@@ -30,7 +30,7 @@ build/
 .idea/
 
 # config
-config/
+config/config.json
 
 *.bat
 *.ps1
