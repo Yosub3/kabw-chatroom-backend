@@ -1,0 +1,36 @@
+# Dependensi
+node_modules/
+jspm_packages/
+
+# Environment Variables (Sangat Penting: Berisi Password DB & JWT Secret)
+.env
+.env.test
+.env.production
+
+# Log
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+logs
+*.log
+
+# Database SQLite (Jika kamu menggunakan SQLite untuk testing)
+*.sqlite
+
+# OS Metadata (File sampah dari sistem operasi)
+.DS_Store
+Thumbs.db
+
+# Folder Build (Jika kamu nanti menggunakan TypeScript atau React)
+dist/
+build/
+
+# Editor Settings
+.vscode/
+.idea/
+
+# config
+config/
+
+*.bat
+*.ps1
